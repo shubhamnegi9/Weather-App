@@ -327,6 +327,7 @@ class MainActivity : AppCompatActivity() {
                 binding.tvMain.text = weatherResponse.weather[i].main
                 binding.tvMainDescription.text = weatherResponse.weather[i].description
 
+                // Check https://openweathermap.org/weather-conditions for weather icon codes
                 if(weatherResponse.weather[i].icon.endsWith('d')) {
                     binding.main.background = ContextCompat.getDrawable(this, R.drawable.weather_app_bg)
                 } else {
