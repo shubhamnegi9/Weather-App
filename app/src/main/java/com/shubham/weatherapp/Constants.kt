@@ -8,7 +8,7 @@ import android.os.Build
 object Constants {
 
     const val BASE_URL = "https://api.openweathermap.org/data/"
-    const val APP_ID = "2c4e41878bdcb59d5f34d103a5b0af52"
+    const val APP_ID = "API_KEY"                                            // Replace with API KEY from openweathermap.org
     const val METRIC_SYSTEM = "metric"
     const val WEATHER_ICON_URL = "https://openweathermap.org/img/wn/"
     const val WEATHER_ICON_SIZE = "@4x.png"
