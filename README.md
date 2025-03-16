@@ -1,5 +1,6 @@
 # Weather-App
 Repo for Weather App. Used:
+- **Open Weather API** for getting information about weather: https://openweathermap.org/api
 - **Dexter** Library for requesting permissions from user to access location
 - **Google Play LocationServices** to get the location of user
 - **Retrofit** and **Gson Converter** Library for network call
